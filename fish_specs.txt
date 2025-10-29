@@ -1,0 +1,59 @@
+fishing game specs:
+items to have: 
+1. Bait: this will be infinite worms, and using things u collect from fishing as bait for higher chances
+2. fish to collect
+3. fishing rod (new ones can be bought with more money which giver higher chances for specific fish?)
+4. money (sell fish to get money. can be used to upgrade ur fishing rod and buy bait)
+
+how the bait system works:
+worms are used which have normal chances
+specific baits give higher chance for specific fish
+
+fishing rod upgrades:
+first is the basic fishing rod. nothing special
+second upgrade: can go deeper?
+3rd upgrade even deeper
+
+the sea:
+3 levels to it: the normal leve, mid depth and super deep. each layer has its own fishes with its own rarity. 
+with higher upgrade fishing rods u can choose how deep u wanna go
+
+actions the player can use:
+1. open inventory: this shows the money they have, the baits, the fish and the rod they have equipped
+2. shop: this lets the player buy stuff or sell fish
+3. go fishing: lets u go fishing
+4. craft: lets u make baits 
+5. quit the game
+
+rarity will determine how rare it is to get, but wont have a set price. so while rarer is more expensive,
+different rare fish will have different prices
+
+Properties of the fish class:
+should have a name, the rarity, the price. there should be a craftable property too. this lets them be turned into bait. certain fish will have certain yield. also has the depth here
+
+Properties of fisher class:
+gotta have a name, an inventory section
+
+Currently done:
+classes have been made for all shallow level fish
+created an inventory. 
+created a fish inventory.
+created a bait inventory
+created fishing system that adds to the fish inventory count regardless of it theres any fish in there or nothing
+created rod system that determines what depth the player is allowed to choose
+crafting function has been made- checks fish inventory and takes away from it, whilst also adding to the bait inventory
+
+to do:
+implement the shop function to buy and sell stuff - done
+implement the quit function -done but needs fixing
+program the other depth fishes - done
+implement how the bait interacts with multipliers (maybe have the multipliers affect fishes of certain rarities)
+fish rod multiplier will only apply to rares and above and needs to be added
+create game loop - done
+create start options -done
+verify user inputs 
+implement a check inventory -done
+implement a cancel feature to go back in select item -done
+add better text replies
+test the shop sell and buy unctions properly
+error after selling a fish in accessing the inventory
